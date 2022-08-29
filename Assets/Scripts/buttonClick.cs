@@ -22,6 +22,8 @@ public class buttonClick : MonoBehaviour
         {
             GameManager.instance.myGold += 140;
             GameManager.instance.myReputation += 1;
+            GameManager.instance.isSteak = false;
+            GameManager.instance.isPizza = true;
         }
         else
         {
@@ -34,6 +36,8 @@ public class buttonClick : MonoBehaviour
         {
             GameManager.instance.myGold += 140;
             GameManager.instance.myReputation += 1;
+            GameManager.instance.isPizza = false;
+            GameManager.instance.isHotdog = true;
         }
         else
         {
@@ -46,6 +50,8 @@ public class buttonClick : MonoBehaviour
         {
         GameManager.instance.myGold += 140;
         GameManager.instance.myReputation += 1;
+            GameManager.instance.isHotdog = false;
+            GameManager.instance.isFries = true;
         }
         else
         {
@@ -58,6 +64,8 @@ public class buttonClick : MonoBehaviour
         {
             GameManager.instance.myGold += 140;
             GameManager.instance.myReputation += 1;
+            GameManager.instance.isFries = false;
+            GameManager.instance.isSteak = true;
         }
         else
         {
