@@ -25,4 +25,9 @@ public class GameManager : MonoBehaviour
 
     //게임 내에서 씬이동시 유지하고 픈 골드 값(변수)
     public int myGold = 0;
+    public int myReputation = 0;
+    public bool isSteak = true;
+    public bool isFries = false;
+    public bool isHotdog = false;
+    public bool isPizza = false;
 }
